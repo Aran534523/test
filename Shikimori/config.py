@@ -16,21 +16,21 @@ class Config(object):
     # REQUIRED
     # Login to https://my.telegram.org and fill in these slots with the details given by it
 
-    API_ID = 123456  # integer value, dont use ""
-    API_HASH = "awoo"
-    TOKEN = "BOT_TOKEN"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
-    OWNER_ID = 1606221784  # If you dont know, run the bot and do /id in your private chat with it, also an integer
-    OWNER_USERNAME = "SOME1HING"
-    SUPPORT_CHAT = "tyranteyeeee"  # Your own group for support, do not add the @
+    API_ID = 15450727  # integer value, dont use ""
+    API_HASH = "bf5b4eca38904bf68ad30e19d65e987c"
+    TOKEN = "5899304590:AAF4cQ3zt5b-BV5p83lDBF-r-enDSUTO30U"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
+    OWNER_ID = 5790406250  # If you dont know, run the bot and do /id in your private chat with it, also an integer
+    OWNER_USERNAME = "Haruki_Shiga_16"
+    SUPPORT_CHAT = "BotsXSupport"  # Your own group for support, do not add the @
     JOIN_LOGGER = (
-        -1001432609692
+        -1001637751927
     )  # Prints any new group the bot is added to, prints just the name and ID.
     LOG_CHANNEL = (
-        -1001150905176
+        -1001637751927
     )  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = "something://somewhat:user@hosturl:port/databasename"  # needed for any database modules
+    SQLALCHEMY_DATABASE_URI = "postgres://bkeamrtd:r9IFEOvHPfEkS3OO-dP0TpNQO4IYAEeq@peanut.db.elephantsql.com/bkeamrtd"  # needed for any database modules
     LOAD = []
     NO_LOAD = []
     WEBHOOK = False
@@ -59,28 +59,28 @@ class Config(object):
     CASH_API_KEY = (
         "awoo"  # Get your API key from https://www.alphavantage.co/support/#api-key
     )
-    TIME_API_KEY = "awoo"  # Get your API key from https://timezonedb.com/api
+    TIME_API_KEY = "-xyz"  # Get your API key from https://timezonedb.com/api
     WALL_API = (
-        "awoo"  # For wallpapers, get one from https://wall.alphacoders.com/api.php
+        ""  # For wallpapers, get one from https://wall.alphacoders.com/api.php
     )
-    AI_API_KEY = "awoo"  # For chatbot, get one from https://coffeehouse.intellivoid.net/dashboard
+    AI_API_KEY = ""  # For chatbot, get one from https://coffeehouse.intellivoid.net/dashboard
     BL_CHATS = []  # List of groups that you want blacklisted.
     SPAMMERS = None
-    ERROR_LOG_CHANNEL = -1001501815938  # needed to make sure 'save from' messages persist
+    ERROR_LOG_CHANNEL = -1001637751927  # needed to make sure 'save from' messages persist
     HEROKU_API_KEY = 2088106582  # Your Heroku API key, get it from 'https://dashboard.heroku.com/account
     HEROKU_APP_NAME = (
         "awoo"  # Enter the Heroku app name here (Must an exact same name with your input above)
     )
-    ARQ_API = "awoo"
+    ARQ_API = "WOZXBP-QIIDFL-KBNDXQ-HJDPWM-ARQ"
     APOD_API_KEY = "awoo"
-    REDIS_URL = "awoo"
+    REDIS_URL = "redis://AranXSiesta:Aranxsiesta99@@redis-16318.c265.us-east-1-2.ec2.cloud.redislabs.com:16318/Hanma-free-db"
     ANIME_NAME = "Shikimori's Not Just a Cutie"
     START_MEDIA = "https://telegra.ph/file/9235d57807362b4e227a3.mp4"
-    BOT_USERNAME = "micchon_shikimori_bot"
+    BOT_USERNAME = "Chizuru_Probot"
     UPDATE_CHANNEL = "Shikimori_bot_Updates"
     ALIVE_MEDIA = "https://telegra.ph/file/2b04f7812f22b983f8a10.mp4"
-    BOT_ID = 5169508699
-    STATS_IMG = "awoo"
+    BOT_ID = 5899304590
+    STATS_IMG = "https://telegra.ph/file/fff37608fa21d9d3d0b39.jpg"
     NETWORK_USERNAME = "VoidxNetwork"
     NETWORK = "【V๏ɪ፝֟𝔡】»Network«"
     MEDIA_GM = "https://telegra.ph/file/fff37608fa21d9d3d0b39.jpg"
@@ -88,7 +88,7 @@ class Config(object):
     MEDIA_HELLO = "https://telegra.ph/file/f3f2dc386a33e37f6cb05.png"
     MEDIA_BYE = "https://telegra.ph/file/061054c8f73fe7ffbf6aa.mp4"
     INLINE_IMG = "https://telegra.ph/file/8cec66d01df8c0071ebaa.jpg"
-    API_WEATHER = "awoo"
+    API_WEATHER = ""
     OWNER_WELCOME_MEDIA = ""
 
 class Production(Config):
